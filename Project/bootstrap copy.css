@@ -1,0 +1,57 @@
+.jumbotron{
+    background-image: url(../1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+figure{
+    margin:0% 38%;
+}
+
+figure img{
+    margin: 0% 25%;
+}
+
+.figure-caption{
+    margin-bottom:40%;
+    margin-left: 8%; 
+    width: fit-content; 
+    text-align: center;
+    color: black;
+}
+
+.or{
+    color: orange;
+}
+
+h5{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+ul{
+    font-family: 'Bangers', cursive;
+}
+
+h3{
+    font-family: 'Bangers', cursive;
+}
+
+
+footer{
+    font-family: 'Bangers', cursive;
+}
+
+
+
+a .fo{color:black;}
+
+a:hover::before{
+    content: "";
+    color: black;
+}
+
+a:hover::after{
+    content: "";
+    color: white;
+}
