@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let vs var</title>
+</head>
+<body>
+
+
+    <h1>alert</h1>
+    <button onclick="myfunction1()">alert</button>
+    <h1>prompt</h1>
+    <button onclick="myfunction2()">your name</button>
+    <script>
+
+    // call after defining var
+    var x=10;
+    console.log(x);
+
+    // call after defining let
+    let y=5;
+    console.log(y);
+
+    // call before difining var (undefined because var reserve a function )
+    var z=25;
+    console.log(z);
+    
+
+    // call before defining let (error because let reserve block)
+    let w=20
+    console.log(w);
+
+    function myfunction1(){
+        alert("Aqaba cohort")}
+    
+    </script>
+</body>
+</html>
