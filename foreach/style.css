@@ -1,0 +1,10 @@
+
+.result{
+color: white;
+            background-color: rgb(179, 57, 36);
+            font-family: sans-serif;
+            padding: 20px;
+            margin-top: 10px;
+            width: fit-content;
+        }
+    
