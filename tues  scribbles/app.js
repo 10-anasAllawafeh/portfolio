@@ -36,3 +36,14 @@ async function getData() {
 }
 getData();
 
+
+
+
+
+str=`ahmad went to aqaba Ahmad eated`;
+
+ex=new RegExp(/a/i);
+
+console.log(str.replace(/a/,`A`));
+
+
