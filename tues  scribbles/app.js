@@ -46,4 +46,9 @@ ex=new RegExp(/a/i);
 
 console.log(str.replace(/a/,`A`));
 
+let x=prompt("num1");
+let y=prompt("num2");
+console.log(Number(x)+Number(y));
+
+console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());
 
